@@ -9,6 +9,8 @@
             new Pajaro()
         };
 
+        Console.WriteLine("Implementacion polimorfismo");
+
         foreach (Animal animal in animales)
         {
             animal.HacerSonido();
